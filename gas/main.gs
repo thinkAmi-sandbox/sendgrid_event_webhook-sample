@@ -18,7 +18,6 @@ function doPost(e) {
   
     targetRow++;
   }
-  const firstRecord = pj[0]
   
   // SendGridのEvent WebhookではHTTPステータスコードさえあれば良いけど念のため
   const result = {
